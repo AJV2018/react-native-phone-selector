@@ -1,7 +1,7 @@
 import { NativeModules } from 'react-native';
 
 type PhoneSelectorType = {
-  multiply(a: number, b: number): Promise<number>;
+  getPhoneNumber(): Promise<string>;
 };
 
 const { PhoneSelector } = NativeModules;

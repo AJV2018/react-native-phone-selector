@@ -15,7 +15,7 @@ import PhoneSelector from "react-native-phone-selector";
 
 // ...
 
-const result = await PhoneSelector.multiply(3, 7);
+const result = await PhoneSelector.getPhoneNumber());
 ```
 
 ## Contributing
